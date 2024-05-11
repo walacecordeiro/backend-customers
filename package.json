@@ -5,7 +5,7 @@
  "main": "index.js",
  "scripts": {
   "dev": "tsx watch src/server.ts",
-  "vercel-build": "npx prisma db push"
+  "vercel-build": "npx prisma generate"
  },
  "keywords": [],
  "author": "",
